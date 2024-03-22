@@ -1,0 +1,10 @@
+version: 2.1
+
+orbs:
+  commitlint: conventional-changelog/commitlint@1.0.0
+
+workflows:
+  main:
+    jobs:
+      - commitlint/lint:
+          name: Perform lint check

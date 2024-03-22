@@ -3,6 +3,8 @@ version: 2.1
 orbs:
   commitlint: conventional-changelog/commitlint@1.0.0
 
+# note: trying to repro issue at
+# https://github.com/conventional-changelog/commitlint/issues/645#issuecomment-1982331052
 workflows:
   main:
     jobs:

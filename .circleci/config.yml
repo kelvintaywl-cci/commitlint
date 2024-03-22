@@ -8,3 +8,4 @@ workflows:
     jobs:
       - commitlint/lint:
           name: Perform lint check
+          node-version: 18.17.0
